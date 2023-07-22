@@ -8,6 +8,7 @@ import LeftNavigation from "../Pages/NavigationBer/LeftNavigation";
 import RightNavigation from "../Pages/NavigationBer/RightNavigation";
 import Header from "../Pages/Header/Header";
 import Contact from "../Pages/Contact/Contact";
+import Services from "../Pages/Services/Services";
 
 const router = createBrowserRouter([
     {
@@ -23,8 +24,8 @@ const router = createBrowserRouter([
                 element: <Header />
             },
             {
-                path: '/Header',
-                element: <Header />
+                path: '/service',
+                element: <Services />,
             },
             {
                 path: '/Header',

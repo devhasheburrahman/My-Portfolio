@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaCheck, } from 'react-icons/fa';
+import { FiX } from "react-icons/fi";
 
 const PricePlans = () => {
     return (
@@ -28,32 +29,33 @@ const PricePlans = () => {
                             <p className='font-[Inter] text-[15px] capitalize leading-5 '>web development</p>
                         </div>
                         <div className='flex gap-5 items-center'>
-                            <p className='text-[#767676]   text-2xl'> X </p>
+                            <p className='text-[#767676]   text-2xl'><FiX /> </p>
+
                             <p className='font-[Inter] text-[15px] capitalize leading-5'>logo design</p>
                         </div>
 
                         <div className='flex gap-5 items-center'>
-                            <p className='text-[#767676]   text-2xl'> X </p>
+                            <p className='text-[#767676]   text-2xl'><FiX /> </p>
                             <p className='font-[Inter] text-[15px] capitalize leading-5'>seo optimization</p>
                         </div>
 
-                        <div className='flex gap-5 items-center'>
-                            <p className='text-[#767676]   text-2xl'> X </p>
+                        <div className='flex gap-5 whitespace-nowrap'>
+                            <p className='text-[#767676]   text-2xl'><FiX /> </p>
                             <p className='font-[Inter] text-[15px] capitalize leading-5'>wordPress integration</p>
                         </div>
 
                         <div className='flex gap-5 items-center'>
-                            <p className='text-[#767676]   text-2xl'> X </p>
+                            <p className='text-[#767676]   text-2xl'><FiX /> </p>
                             <p className='font-[Inter] text-[15px] capitalize leading-5'>5 Websites</p>
                         </div>
 
                         <div className='flex gap-5 items-center'>
-                            <p className='text-[#767676]   text-2xl'> X </p>
+                            <p className='text-[#767676]   text-2xl'><FiX /> </p>
                             <p className='font-[Inter] text-[15px] capitalize leading-5'>unlimited user</p>
                         </div>
 
                         <div className='flex gap-5 items-center'>
-                            <p className='text-[#767676]   text-2xl'> X </p>
+                            <p className='text-[#767676]   text-2xl'><FiX /> </p>
                             <p className='font-[Inter] text-[15px] capitalize leading-5'>20 gB bandwith</p>
                         </div>
                     </div>
@@ -91,23 +93,23 @@ const PricePlans = () => {
                                 <p className='font-[Inter] text-[15px] capitalize leading-5'>seo optimization</p>
                             </div>
 
-                            <div className='flex gap-5 items-center'>
-                                <p className='text-[#767676]   text-2xl'> X </p>
+                            <div className='flex gap-5 whitespace-nowrap'>
+                                <p className='text-[#767676]   text-2xl'><FiX /> </p>
                                 <p className='font-[Inter] text-[15px] capitalize leading-5'>wordPress integration</p>
                             </div>
 
                             <div className='flex gap-5 items-center'>
-                                <p className='text-[#767676]   text-2xl'> X </p>
+                                <p className='text-[#767676]   text-2xl'><FiX /> </p>
                                 <p className='font-[Inter] text-[15px] capitalize leading-5'>5 Websites</p>
                             </div>
 
                             <div className='flex gap-5 items-center'>
-                                <p className='text-[#767676]   text-2xl'> X </p>
+                                <p className='text-[#767676]   text-2xl'><FiX /> </p>
                                 <p className='font-[Inter] text-[15px] capitalize leading-5'>unlimited user</p>
                             </div>
 
                             <div className='flex gap-5 items-center'>
-                                <p className='text-[#767676]   text-2xl'> X </p>
+                                <p className='text-[#767676]   text-2xl'><FiX /> </p>
                                 <p className='font-[Inter] text-[15px] capitalize leading-5'>20 gB bandwith</p>
                             </div>
                         </div>

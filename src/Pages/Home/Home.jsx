@@ -5,6 +5,7 @@ import PricePlans from '../PricePlans/PricePlans';
 import Recommendations from '../recommendations/Recommendations';
 import Education from '../Education/Education';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <Recommendations />
             <Education />
             <Contact />
+            <Footer/>
 
 
 

@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaBaby, FaCircle,  FaCode,  FaCommentDots,  FaFeatherAlt, FaHome,  FaUser } from 'react-icons/fa';
+import { FaCircle, FaCode, FaCommentDots, FaFeatherAlt, FaHome, } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
-
+import profile from '../../../public/cv.png'
+import portfolio from '../../../public/portfolio.png'
 
 const RightNavigation = () => {
     return (
@@ -14,24 +15,24 @@ const RightNavigation = () => {
                     <NavLink
                         to="/"
                         className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-[red] bg-black" : ""
+                            isPending ? "pending" : isActive ? "text-[#FFB400] bg-black" : ""
                         }
                     >
                         <div className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
                             <FaCircle className='h-[18px] text-[#767676] w-[18px]' />
-                            {/* FaCircleHalfStroke */}
-                            
+
+
                         </div>
                     </NavLink>
 
                 </div>
                 <NavLink
-                    to="/lightNavigation"
+                    to="/header"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-red-500 bg-red-300" : ""
+                        isPending ? "pending" : isActive ? " text-[#FFB400] bg-black" : "bg-[#FFB400] "
                     }
                 >
-                    <div title='Home' className='bg-[#F0F0F6] mt-[212px]  h-10 w-10 rounded-full flex justify-center items-center'>
+                    <div title='Home' className='mt-[212px]  h-10 w-10 rounded-full flex justify-center items-center'>
                         <FaHome className='h-[18px] text-[#767676] w-[18px]' />
 
                     </div>
@@ -40,9 +41,9 @@ const RightNavigation = () => {
 
                 <div className='mt-10'>
                     <NavLink
-                        to="/"
+                        to="/service"
                         className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
+                            isPending ? "pending" : isActive ? "text-[#FFB400] p-5 bg-black" : ""
                         }
                     >
                         <div className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center '>
@@ -57,11 +58,14 @@ const RightNavigation = () => {
                             isPending ? "pending" : isActive ? "active" : ""
                         }
                     >
-                        <div title='Home' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
-                            <FaBaby className='h-[18px] text-[#767676] w-[18px]' />
+                        <div title='portfolio' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
+
+                            <img className='h-[18px] text-[#767676] w-[18px]' src={portfolio} alt="" />
+
                         </div>
                     </NavLink>
                 </div>
+
                 <div className='mt-10'>
                     <NavLink
                         to="/"
@@ -70,35 +74,16 @@ const RightNavigation = () => {
                         }
                     >
                         <div title='Home' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
-                            <FaUser className='h-[18px] text-[#767676] w-[18px]' />
+
+                            <img className='h-[18px] text-[#767676] w-[18px]' src={profile} alt="" />
                         </div>
                     </NavLink>
                 </div>
-                <div className='mt-10'>
-                    <NavLink
-                        to="/"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        }
-                    >
-                        <div title='Home' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
-                            <FaUser className='h-[18px] text-[#767676] w-[18px]' />
-                        </div>
-                    </NavLink>
-                </div>
-                <div className='mt-10'>
-                    <NavLink
-                        to="/"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        }
-                    >
-                        <div className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
-                            <FaFeatherAlt className='h-[18px] text-[#767676] w-[18px]' />
-                        </div>
-                    </NavLink>
-                </div>
-                <div className='mt-10 pb-10'>
+
+
+
+
+                <div className='mt-10 '>
                     <NavLink
                         to="/"
                         className={({ isActive, isPending }) =>
@@ -107,6 +92,18 @@ const RightNavigation = () => {
                     >
                         <div title='Home' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
                             <FaCommentDots className='h-[18px] text-[#767676] w-[18px]' />
+                        </div>
+                    </NavLink>
+                </div>
+                <div className='mt-10 pb-[550px]'>
+                    <NavLink
+                        to="/"
+                        className={({ isActive, isPending }) =>
+                            isPending ? "pending" : isActive ? "active" : ""
+                        }
+                    >
+                        <div title='Home' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
+                            <FaFeatherAlt className='h-[18px] text-[#767676] w-[18px]' />
                         </div>
                     </NavLink>
                 </div>
