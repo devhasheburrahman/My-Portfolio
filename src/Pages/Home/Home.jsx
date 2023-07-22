@@ -4,6 +4,7 @@ import Services from '../Services/Services';
 import PricePlans from '../PricePlans/PricePlans';
 import Recommendations from '../recommendations/Recommendations';
 import Education from '../Education/Education';
+import Contact from '../Contact/Contact';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <PricePlans />
             <Recommendations />
             <Education />
+            <Contact />
 
 
 

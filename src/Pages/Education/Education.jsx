@@ -41,7 +41,7 @@ const Education = () => {
                         <h2 className='font-[Inter] mt-4 mb-4 text-lg leading-[22px] capitalize font-medium'>Web developer courses</h2>
                         <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Student : <span className='bg-[#FFB400] text-white p-1'>Jan 2013- Dec2021 </span></p>
                     </div>
-                    <div className='w-1/2'>
+                    <div className='w-1/2 mb-8'>
                         <h2 className='font-[Inter] mt-4 mb-4 text-lg leading-[22px] capitalize font-medium'>Certificate Of Web Training </h2>
                         <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio odit aliquam modi labore earum est omnis nostrum facere laboriosam culpa vitae, neque praesentium ipsam voluptatum?</p>
                     </div>

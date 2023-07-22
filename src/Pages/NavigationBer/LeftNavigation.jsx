@@ -156,7 +156,7 @@ const LeftNavigation = () => {
             </div>
 
 
-            <div className='mt-10'>
+            <div className='mt-10 pb-10'>
                 <button className='px-10 py-2 font-[Inter] text-sm flex  uppercase font-semibold text-[#2B2B2B] items-center leading-6 bg-[#FFB400]'>Download Cv<FaDownload className='ml-5' /> </button>
             </div>
 
