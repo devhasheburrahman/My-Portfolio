@@ -9,6 +9,9 @@ import RightNavigation from "../Pages/NavigationBer/RightNavigation";
 import Header from "../Pages/Header/Header";
 import Contact from "../Pages/Contact/Contact";
 import Services from "../Pages/Services/Services";
+import Education from "../Pages/Education/Education";
+import Recommendations from "../Pages/recommendations/Recommendations";
+import PricePlans from "../Pages/PricePlans/PricePlans";
 
 const router = createBrowserRouter([
     {
@@ -20,21 +23,30 @@ const router = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: '/Header',
-                element: <Header />
-            },
-            {
-                path: '/service',
-                element: <Services />,
-            },
-            {
-                path: '/Header',
+                path: '/header',
                 element: <Header />
             },
             {
                 path: '/contact',
                 element: <Contact />
             },
+            {
+                path: '/service',
+                element: <Services />,
+            },
+            {
+                path: '/education',
+                element: <Education />
+            },
+            {
+                path: '/PricePlans',
+                element: <PricePlans />
+            },
+            {
+                path: '/recommendations',
+                element: <Recommendations />
+            },
+
             {
                 path: '/leftNavigation',
                 element: <LeftNavigation />,

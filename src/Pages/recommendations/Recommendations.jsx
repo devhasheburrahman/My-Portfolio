@@ -4,7 +4,7 @@ import Rating from 'react-rating';
 
 const Recommendations = () => {
     return (
-        <div>
+        <div id='recommendations'>
             <h2 className='text-center  font-[Inter] text-[32px] font-bold capitalize leading-[123px] '>recommendations</h2>
             <p className='text-center mb-[50px] px-24 text-[#767676]  font-[Inter] text-[15px] font-normal capitalize leading-6'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
 

@@ -6,106 +6,74 @@ import portfolio from '../../../public/portfolio.png'
 
 const RightNavigation = () => {
     return (
+
         <div className='w-[108px]  flex  justify-center bg-[#FAFAFA]  shadow-lg'>
 
 
             <div className=' '>
 
                 <div className='pt-12 '>
-                    <NavLink
-                        to="/"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-[#FFB400] bg-black" : ""
-                        }
-                    >
-                        <div className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
-                            <FaCircle className='h-[18px] text-[#767676] w-[18px]' />
+
+                    <div className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
+                        <a href="/"><FaCircle className='h-[18px] text-[#767676] w-[18px]' />
+                        </a>
+                    </div>
+                </div>
 
 
-                        </div>
-                    </NavLink>
+                <div title='Home' className='mt-[212px]  h-10 w-10 rounded-full flex justify-center items-center'>
+
+                    <a href="/"> <FaHome className='h-[18px] text-[#767676] w-[18px]' /> </a>
 
                 </div>
-                <NavLink
-                    to="/header"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? " text-[#FFB400] bg-black" : "bg-[#FFB400] "
-                    }
-                >
-                    <div title='Home' className='mt-[212px]  h-10 w-10 rounded-full flex justify-center items-center'>
-                        <FaHome className='h-[18px] text-[#767676] w-[18px]' />
+
+                <div className='mt-10'>
+
+                    <div title='Our Service' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center '>
+                        <a href="#service"><FaCode className='h-[18px] text-[#767676] w-[18px]' /></a>
 
                     </div>
 
-                </NavLink>
-
-                <div className='mt-10'>
-                    <NavLink
-                        to="/service"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "text-[#FFB400] p-5 bg-black" : ""
-                        }
-                    >
-                        <div className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center '>
-                            <FaCode className='h-[18px] text-[#767676] w-[18px]' />
-                        </div>
-                    </NavLink>
                 </div>
                 <div className='mt-10'>
-                    <NavLink
-                        to="/"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        }
-                    >
-                        <div title='portfolio' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
 
-                            <img className='h-[18px] text-[#767676] w-[18px]' src={portfolio} alt="" />
+                    <div title='Price Plans' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
+                        <a href="#PricePlans"><img className='h-[18px] text-[#767676] w-[18px]' src={portfolio} alt="" />
+                        </a>
 
-                        </div>
-                    </NavLink>
+                    </div>
+
                 </div>
 
                 <div className='mt-10'>
-                    <NavLink
-                        to="/"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        }
-                    >
-                        <div title='Home' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
 
-                            <img className='h-[18px] text-[#767676] w-[18px]' src={profile} alt="" />
-                        </div>
-                    </NavLink>
+                    <div title='Education' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
+                        <a href="#education"> <img className='h-[18px] text-[#767676] w-[18px]' src={profile} alt="" /> </a>
+
+                    </div>
+
                 </div>
 
 
 
 
                 <div className='mt-10 '>
-                    <NavLink
-                        to="/"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        }
-                    >
-                        <div title='Home' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
-                            <FaCommentDots className='h-[18px] text-[#767676] w-[18px]' />
-                        </div>
-                    </NavLink>
+
+                    <div title='Contact' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
+                        <a href="#contact"> <FaCommentDots className='h-[18px] text-[#767676] w-[18px]' /></a>
+
+                    </div>
+
                 </div>
                 <div className='mt-10 pb-[550px]'>
-                    <NavLink
-                        to="/"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        }
-                    >
-                        <div title='Home' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
-                            <FaFeatherAlt className='h-[18px] text-[#767676] w-[18px]' />
-                        </div>
-                    </NavLink>
+
+                    <div title='portfolio' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
+
+
+                        <a href="#outproject"> <FaFeatherAlt className='h-[18px] text-[#767676] w-[18px]' /> </a>
+                    </div>
+
+
                 </div>
 
 

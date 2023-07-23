@@ -4,7 +4,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaLocationArrow, FaMapMarkerAlt, FaPh
 
 const Contact = () => {
     return (
-        <div>
+        <div id='contact'>
             <h2 className='text-center mt-20  font-[Inter] text-[32px] font-bold capitalize leading-[123px] '> Contact Me</h2>
 
             <div>
@@ -17,13 +17,13 @@ const Contact = () => {
                                     <label className="label">
                                         <span className="label-text">Your Name</span>
                                     </label>
-                                    <input type="text" name='name' placeholder="Your Name" className="input input-bordered " />
+                                    <input type="text" name='name' placeholder="Your Name" className="input input-bordered outline-none " />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Your Email</span>
                                     </label>
-                                    <input type="email" name='email' placeholder="Your Email" className="input input-bordered" />
+                                    <input type="email" name='email' placeholder="Your Email" className="input input-bordered outline-none" />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">

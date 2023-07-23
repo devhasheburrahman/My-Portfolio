@@ -4,7 +4,7 @@ import { FiX } from "react-icons/fi";
 
 const PricePlans = () => {
     return (
-        <div>
+        <div id='PricePlans'>
             <div>
                 <h2 className='text-center  font-[Inter] text-[32px] font-bold capitalize leading-[123px] '>Price Plans</h2>
                 <p className='text-center mb-[50px] px-24 text-[#767676]  font-[Inter] text-[15px] font-normal capitalize leading-6'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
@@ -143,7 +143,7 @@ const PricePlans = () => {
                             <p className='font-[Inter] text-[15px] capitalize leading-5'>seo optimization</p>
                         </div>
 
-                        <div className='flex gap-5 items-center'>
+                        <div className='flex gap-5 items-center whitespace-nowrap'>
                             <p className='text-[#FFB400] h-6'> <FaCheck /> </p>
                             <p className='font-[Inter] text-[15px] capitalize leading-5'>wordPress integration</p>
                         </div>
