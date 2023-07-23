@@ -20,7 +20,7 @@ const RightNavigation = () => {
                 </div>
 
 
-                <div title='Home' className='mt-[212px]  h-10 w-10 rounded-full flex justify-center items-center'>
+                <div title='Home' className='mt-[112px]  h-10 w-10 rounded-full flex justify-center items-center'>
 
                     <a href="/"> <FaHome className='h-[18px] text-[#767676] w-[18px]' /> </a>
 
