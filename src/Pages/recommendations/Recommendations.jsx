@@ -10,7 +10,7 @@ const Recommendations = () => {
 
 
             <div className='flex gap-4'>
-                <div className='bg-[#FFFFFF] px-6 pt-6'>
+                <div className='bg-[#FFFFFF] rounded-lg px-6 pt-6'>
                     <div>
                         <Rating
                             placeholderRating={5}
@@ -20,7 +20,7 @@ const Recommendations = () => {
                             fullSymbol={<FaStar></FaStar>} />
                     </div>
                     <p className='font-[Inter] mt-4 mb-4 text-lg leading-[22px] capitalize font-medium'>Great Quality !</p>
-                    <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Lorem ipsum dolor sit amet cons ectetur adipisicing elit. Assumenda labore illum voluptatem beatae, similique hic fuga error itaque nemo repellat quidem sed esse voluptas delectus aspernatur porro eum, reiciendis doloribus.</p>
+                    <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda, culpa magnam quisquam debitis deserunt.</p>
                     <div className='flex justify-between mt-[30px] pb-[25px] items-center'>
 
                         <img src="/Profile.png" alt="" />
@@ -30,7 +30,7 @@ const Recommendations = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#FFFFFF] px-6 pt-6'>
+                <div className='bg-[#FFFFFF] rounded-lg px-6 pt-6'>
 
                     <div>
                         <Rating
@@ -42,7 +42,7 @@ const Recommendations = () => {
                     </div>
 
                     <p className='font-[Inter] mt-4 mb-4 text-lg leading-[22px] capitalize font-medium'>Amazing work!</p>
-                    <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda labore illum voluptatem beatae, similique hic fuga error itaque nemo repellat quidem sed esse voluptas delectus aspernatur porro eum, reiciendis doloribus.</p>
+                    <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda, culpa magnam quisquam debitis deserunt.!</p>
                     <div className='flex justify-between mt-[30px] pb-[25px]  items-center'>
 
                         <img src="/Profile (1).png" alt="" />
@@ -52,7 +52,7 @@ const Recommendations = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#FFFFFF] px-6 pt-6'>
+                <div className='bg-[#FFFFFF] rounded-lg px-6 pt-6'>
                     <div>
                         <Rating
                             placeholderRating={5}
@@ -62,12 +62,12 @@ const Recommendations = () => {
                             fullSymbol={<FaStar></FaStar>} />
                     </div>
                     <p className='font-[Inter] mt-4 mb-4 text-lg leading-[22px] capitalize font-medium'>Great Quality !</p>
-                    <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda labore illum voluptatem beatae, similique hic fuga error itaque nemo repellat quidem sed esse voluptas delectus aspernatur porro eum, reiciendis doloribus.</p>
+                    <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos assumenda, culpa magnam quisquam debitis deserunt.!</p>
                     <div className='flex justify-between mt-[30px] pb-[25px]  items-center'>
 
                         <img src="/Profile (2).png" alt="" />
                         <div>
-                            <h1 className='font-[Inter] text-lg leading-[22px] capitalize font-medium'>Talan Westervelt</h1>
+                            <h1 className='font-[Inter] text-lg leading-[22px] capitalize font-medium'>Naimur Hasan</h1>
                             <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Business man</p>
                         </div>
                     </div>

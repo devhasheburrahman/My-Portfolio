@@ -7,9 +7,9 @@ const Education = () => {
             <p className='text-center mb-[50px] px-24 text-[#767676]  font-[Inter] text-[15px] font-normal capitalize leading-6'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
 
 
-            <div className='bg-[#FFFFFF]'>
+            <div className='rounded-lg bg-[#FFFFFF]'>
                 {/* section 1 */}
-                <div className='flex px-[37px]  '>
+                <div className='flex pt-20 px-[37px]  '>
                     <div className='w-1/2'>
                         <h2 className='font-[Inter] mt-4 mb-4 text-lg leading-[22px] capitalize font-medium'>University Of Toronto</h2>
                         <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Student : <span className='bg-[#FFB400] text-white p-1'>Jan 2013- Dec2021 </span></p>
@@ -36,7 +36,7 @@ const Education = () => {
 
                 <div className='h-[1.5px] w-[750px] bg-[#F0F0F6]  mt-[30px] mb-10 mx-auto'></div>
                 {/* section 3 */}
-                <div className='flex px-[37px]  '>
+                <div className='flex pb-10 px-[37px]  '>
                     <div className='w-1/2'>
                         <h2 className='font-[Inter] mt-4 mb-4 text-lg leading-[22px] capitalize font-medium'>Web developer courses</h2>
                         <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Student : <span className='bg-[#FFB400] text-white p-1'>Jan 2013- Dec2021 </span></p>

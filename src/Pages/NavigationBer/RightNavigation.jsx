@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaCircle, FaCode, FaCommentDots, FaFeatherAlt, FaHome, } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
+import { FaCircle, FaCode, FaCommentDots, FaFeatherAlt, FaHome, } from 'react-icons/fa'; 
 import profile from '../../../public/cv.png'
 import portfolio from '../../../public/portfolio.png'
 

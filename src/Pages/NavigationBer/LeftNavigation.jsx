@@ -31,27 +31,27 @@ const LeftNavigation = () => {
             {/* about section  */}
 
             <div>
-                <div className='flex mt-[10px]  justify-between  '>
-                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 bg-[#FFB400]'>Age:</p>
-                    <p className=' text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>24</p>
+                <div className='flex mt-[10px] items-center  justify-between  '>
+                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 font-bold bg-[#FFB400]'>Age:</p>
+                    <p className=' text-[15px]  font-[Inter] font-bold capitalize text-[#2B2B2B] leading-6'>20</p>
                 </div>
             </div>
             <div>
-                <div className='flex mt-[10px]  justify-between  '>
-                    <p className='py-2 px-2 text-[15px]   font-[Inter] capitalize text-[#2B2B2B] leading-6 bg-[#FFB400]'>Residence:</p>
-                    <p className=' text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>BD</p>
+                <div className='flex mt-[10px] items-center  justify-between  '>
+                    <p className='py-2 px-2 text-[15px]   font-[Inter] capitalize text-[#2B2B2B] leading-6 font-bold bg-[#FFB400]'>Residence:</p>
+                    <p className=' text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 font-bold'>BD</p>
                 </div>
             </div>
             <div>
-                <div className='flex mt-[10px] justify-between '>
-                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 bg-[#FFB400]'>Freelance:</p>
-                    <p className='  text-[15px]  font-[Inter] capitalize  leading-6 text-[#7EB942]'>Available</p>
+                <div className='flex items-center mt-[10px] justify-between '>
+                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 font-bold bg-[#FFB400]'>Freelance:</p>
+                    <p className='font-bold  text-[15px]  font-[Inter] capitalize  leading-6 text-[#7EB942]'>Available</p>
                 </div>
             </div>
             <div>
-                <div className='flex mt-[10px] justify-between'>
-                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 bg-[#FFB400]'>Address:</p>
-                    <p className=' text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>kurigram,BD</p>
+                <div className='flex mt-[10px] items-center justify-between'>
+                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 font-bold bg-[#FFB400]'>Address:</p>
+                    <p className=' font-bold text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>kurigram,BD</p>
                 </div>
             </div>
 
