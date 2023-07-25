@@ -19,8 +19,8 @@ const Header = () => {
 
             </div>
 
-            <div >
-                <img className='h-96 w-[850px]' src={'/hhh.jpg'} alt="" />
+            <div  className='h-96 overflow-hidden w-[450px]'>
+                <img src={'/hhh.jpg'} alt="" />
 
             </div>
         </div>
