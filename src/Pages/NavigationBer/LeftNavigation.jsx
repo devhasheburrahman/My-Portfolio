@@ -32,26 +32,26 @@ const LeftNavigation = () => {
 
             <div>
                 <div className='flex mt-[10px] items-center  justify-between  '>
-                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 font-bold bg-[#FFB400]'>Age:</p>
-                    <p className=' text-[15px]  font-[Inter] font-bold capitalize text-[#2B2B2B] leading-6'>20</p>
+                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize rounded-sm text-[#2B2B2B] leading-6 font-semibold bg-[#FFB400]'>Age:</p>
+                    <p className=' text-[15px]  font-[Inter] font-semibold capitalize text-[#2B2B2B] leading-6'>20</p>
                 </div>
             </div>
             <div>
                 <div className='flex mt-[10px] items-center  justify-between  '>
-                    <p className='py-2 px-2 text-[15px]   font-[Inter] capitalize text-[#2B2B2B] leading-6 font-bold bg-[#FFB400]'>Residence:</p>
+                    <p className='py-2 px-2 text-[15px]   font-[Inter] capitalize text-[#2B2B2B] rounded-sm leading-6 font-semibold bg-[#FFB400]'>Residence:</p>
                     <p className=' text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 font-bold'>BD</p>
                 </div>
             </div>
             <div>
                 <div className='flex items-center mt-[10px] justify-between '>
-                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 font-bold bg-[#FFB400]'>Freelance:</p>
-                    <p className='font-bold  text-[15px]  font-[Inter] capitalize  leading-6 text-[#7EB942]'>Available</p>
+                    <p className='py-2 px-2 text-[15px] font-semibold font-[Inter] rounded-sm capitalize text-[#2B2B2B] leading-6   bg-[#FFB400]'>Freelance:</p>
+                    <p className='font-semibold text-[15px]  font-[Inter] capitalize  leading-6 text-[#7EB942]'>Available</p>
                 </div>
             </div>
             <div>
                 <div className='flex mt-[10px] items-center justify-between'>
-                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6 font-bold bg-[#FFB400]'>Address:</p>
-                    <p className=' font-bold text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>kurigram,BD</p>
+                    <p className='py-2 px-2 text-[15px]  font-[Inter] capitalize text-[#2B2B2B] rounded-sm leading-6 font-semibold bg-[#FFB400]'>Address:</p>
+                    <p className=' font-semibold text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>kurigram,BD</p>
                 </div>
             </div>
 
@@ -88,7 +88,6 @@ const LeftNavigation = () => {
 
             <div className='h-[1.5px] w-[220px] bg-[#F0F0F6] mt-10  mx-auto'></div>
             {/*skill */}
-
             <div>
                 <h1 className='text-xl text-[#2B2B2B]  capitalize leading-[123px] font-medium font-[Inter]'>Skill</h1>
                 <div>
@@ -112,7 +111,7 @@ const LeftNavigation = () => {
                     </div>
                     <progress className="progress  progress-warning w-56" value="80" max="100"></progress>
                 </div>
-                <div  >
+                <div >
                     <div className='flex mt-[10px] justify-between '>
                         <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6  ' > React</p>
                         <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'> 75 %</p>
@@ -121,10 +120,24 @@ const LeftNavigation = () => {
                 </div>
                 <div >
                     <div className='flex mt-[10px] justify-between '>
-                        <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6  ' > Express </p>
-                        <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>70 %</p>
+                        <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6  ' > Firebase</p>
+                        <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'> 70 %</p>
                     </div>
                     <progress className="progress  progress-warning w-56" value="70" max="100"></progress>
+                </div>
+                <div >
+                    <div className='flex mt-[10px] justify-between '>
+                        <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6  ' > Express </p>
+                        <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>65 %</p>
+                    </div>
+                    <progress className="progress  progress-warning w-56" value="65" max="100"></progress>
+                </div>
+                <div >
+                    <div className='flex mt-[10px] justify-between '>
+                        <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6  ' > Mongo DB </p>
+                        <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>60 %</p>
+                    </div>
+                    <progress className="progress  progress-warning w-56" value="60" max="100"></progress>
                 </div>
             </div>
 
@@ -157,7 +170,7 @@ const LeftNavigation = () => {
 
 
             <div className='mt-10 pb-10'>
-                <button className='px-10 py-2 font-[Inter] text-sm flex  uppercase font-semibold text-[#2B2B2B] items-center leading-6 bg-[#FFB400]'>Download Cv<FaDownload className='ml-5' /> </button>
+                <button className='px-10 py-2 font-[Inter] text-sm flex  rounded-lg shadow-lg uppercase font-semibold text-[#2B2B2B] items-center leading-6 bg-[#FFB400]'>Download Cv<FaDownload className='ml-5' /> </button>
             </div>
 
         </section>

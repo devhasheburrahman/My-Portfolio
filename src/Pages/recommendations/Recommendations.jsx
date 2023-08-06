@@ -10,8 +10,8 @@ const Recommendations = () => {
 
 
             <div className='flex gap-4'>
-                <div className='bg-[#FFFFFF] rounded-lg px-6 pt-6'>
-                    <div>
+                <div className='bg-[#FFFFFF] shadow-lg rounded-lg px-6 pt-6'>
+                    <div >
                         <Rating
                             placeholderRating={5}
                             readonly
@@ -30,7 +30,7 @@ const Recommendations = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#FFFFFF] rounded-lg px-6 pt-6'>
+                <div className='bg-[#FFFFFF] shadow-lg rounded-lg px-6 pt-6'>
 
                     <div>
                         <Rating
@@ -52,7 +52,7 @@ const Recommendations = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#FFFFFF] rounded-lg px-6 pt-6'>
+                <div className='bg-[#FFFFFF] shadow-lg rounded-lg px-6 pt-6'>
                     <div>
                         <Rating
                             placeholderRating={5}

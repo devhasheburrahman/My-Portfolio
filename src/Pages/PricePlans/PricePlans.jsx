@@ -11,7 +11,7 @@ const PricePlans = () => {
             </div>
             {/* card section */}
 
-            <div className='flex justify-center shadow-sm  gap-5 px-3'>
+            <div className='flex justify-center shadow-sm  gap-5 px-2'>
                 <div className=' px-[33px]  rounded-lg shadow text-center bg-[#FFFFFF]'>
                     <h2 className='font-[Inter] pt-[54px] text-2xl font-bold text-black
                  leading-[50px]'>Silver</h2>
@@ -61,13 +61,11 @@ const PricePlans = () => {
                     </div>
 
                     <button className='font-bold mt-10 mb-5 font-[Inter] text-sm text-[#2B2B2B] rounded-[30px] shadow-2xl px-10 py-[10px]'>ORDER NOW</button>
-                </div>
+                </div> 
+            {/* gold */}
+            <div className='text-center px-[33px] shadow-lg rounded-lg  bg-[#FFFFFF]'>
 
-                {/* gold */}
-
-                <div className='text-center px-[33px] shadow-lg rounded-lg  bg-[#FFFFFF]'>
-
-                    <div className='w-full  text-black leading-6 capitalize h-[30px] font-bold font-[Inter] text-[15px] bg-[#FFB400]'>Most Popular</div>
+                    <div className='w-full flex justify-center items-center rounded-md  text-black leading-6 capitalize h-[30px] font-bold font-[Inter] text-[15px] bg-[#FFB400]'>Most Popular</div>
                     <div>
                         <h2 className='font-[Inter] text-2xl mt-[25px] font-bold text-black leading-[50px]'>Gold</h2>
                         <p className='text-[Inter] text-black text-[32px] font-bold leading-[50px] '>$50.00 <span className='text-[Inter] leading-6  text-[#767676] text-[15px]'>/Hour</span></p>

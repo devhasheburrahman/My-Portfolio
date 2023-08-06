@@ -3,13 +3,13 @@ import React from 'react';
 const Education = () => {
     return (
         <div id='education'>
-            <h2 className='text-center  font-[Inter] text-[32px] font-bold capitalize leading-[123px] '>Education</h2>
+            <h2 className='text-center  font-[Inter] text-[32px] pt-10 font-bold capitalize leading-[123px] '>Education</h2>
             <p className='text-center mb-[50px] px-24 text-[#767676]  font-[Inter] text-[15px] font-normal capitalize leading-6'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
 
 
             <div className='rounded-lg bg-[#FFFFFF]'>
                 {/* section 1 */}
-                <div className='flex pt-20 px-[37px]  '>
+                <div className='flex pt-5 px-[37px]  '>
                     <div className='w-1/2'>
                         <h2 className='font-[Inter] mt-4 mb-4 text-lg leading-[22px] capitalize font-medium'>University Of Toronto</h2>
                         <p className='font-[Inter] text-[15px] leading-[24px] capitalize font-normal text-[#767676]'>Student : <span className='bg-[#FFB400] text-white p-1'>Jan 2013- Dec2021 </span></p>

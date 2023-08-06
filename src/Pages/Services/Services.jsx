@@ -11,37 +11,36 @@ const Services = () => {
 
             </div>
             {/* service card */}
-            <div className='grid grid-cols-3 gap-4 px-[30px] mt-10'>
-                <div className="bg-[#FFFFFF] rounded flex flex-col py-[33px] justify-center items-center">
+            <div className='grid grid-cols-3   gap-4 px-[30px] mt-10'>
+                <div className="bg-[#FFFFFF] rounded shadow-lg flex flex-col py-[33px] justify-center items-center">
                     <img src={'/coding.svg'} alt="" />
                     <h2 className=' font-[Inter] text-lg leading-[50px] capitalize font-medium text-[#2B2B2B]'>Web Development</h2>
                     <p className='capitalize leading-6 font-[Inter] font-[15px] '>blog, e-commerce</p>
                 </div>
-                <div className="bg-[#FFFFFF] rounded flex flex-col py-[33px] justify-center items-center">
+                <div className="bg-[#FFFFFF] rounded shadow-lg flex flex-col py-[33px] justify-center items-center">
                     <img src={'/illustration.png'} alt="" />
                     <h2 className=' font-[Inter] text-lg leading-[50px] capitalize font-medium text-[#2B2B2B]'>uI/uX design</h2>
                     <p className='capitalize leading-6 font-[Inter] font-[15px] '>Mobile app, website design</p>
                 </div>
-                <div className="bg-[#FFFFFF] rounded  flex flex-col py-[33px] justify-center items-center">
-                    <img  src={'/Microphone.svg'} alt="" />
+                <div className="bg-[#FFFFFF] rounded shadow-lg flex flex-col py-[33px] justify-center items-center">
+                    <img src={'/Microphone.svg'} alt="" />
                     <h2 className=' font-[Inter] text-lg leading-[50px] capitalize font-medium text-[#2B2B2B]'>sound design</h2>
                     <p className='capitalize leading-6 font-[Inter] font-[15px] '>Voice Over, Beat Making</p>
                 </div>
-                <div className="bg-[#FFFFFF] rounded flex flex-col py-[33px] justify-center items-center">
+                <div className="bg-[#FFFFFF] rounded shadow-lg flex flex-col py-[33px] justify-center items-center">
                     <img src={'/game-development.svg'} alt="" />
                     <h2 className=' font-[Inter] text-lg leading-[50px] capitalize font-medium text-[#2B2B2B]'>game design</h2>
                     <p className='capitalize leading-6 font-[Inter] font-[15px] '>Character Design, <br /> Props & Objects</p>
                 </div>
 
 
-                <div className="bg-[#FFFFFF] rounded  flex flex-col py-[33px] justify-center items-center">
+                <div className="bg-[#FFFFFF] rounded shadow-lg  flex flex-col py-[33px] justify-center items-center">
                     <img src={'/Photographer.png'} alt="" />
                     <h2 className=' font-[Inter] text-lg leading-[50px] capitalize font-medium text-[#2B2B2B]'>photography</h2>
                     <p className='capitalize leading-6 font-[Inter] font-[15px] '>portrait, product photography</p>
                 </div>
 
-                <div className="bg-[#FFFFFF] rounded flex flex-col py-[33px] justify-center items-center">
-
+                <div className="bg-[#FFFFFF] rounded shadow-lg flex flex-col py-[33px] justify-center items-center">
                     <h2 className=' font-[Inter] text-lg leading-[50px] capitalize font-medium text-[#2B2B2B]'>advertising</h2>
                     <p className='capitalize leading-6 px-6 text-center font-[Inter] font-[15px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. </p>
                     <button className='flex justify-center items-center gap-3 text-[#FFB400] font-[Inter] mt-4'>ORDER NOW <FaAngleRight /> </button>
