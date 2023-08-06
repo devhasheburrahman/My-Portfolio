@@ -1,14 +1,12 @@
 import React from 'react';
-import { FaCircle, FaCode, FaCommentDots, FaFeatherAlt, FaHome, } from 'react-icons/fa'; 
+import { FaCircle, FaCode, FaCommentDots, FaFeatherAlt, FaHome, } from 'react-icons/fa';
 import profile from '/cv.png'
- 
+
 
 const RightNavigation = () => {
     return (
 
         <div className='w-[108px]  flex  justify-center bg-[#FAFAFA]  shadow-lg'>
-
-
             <div className=' '>
 
                 <div className='pt-12 '>

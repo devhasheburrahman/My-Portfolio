@@ -6,6 +6,7 @@ import Recommendations from '../recommendations/Recommendations';
 import Education from '../Education/Education';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
+import Skill from '../Skill/Skill';
 
 
 const Home = () => {
@@ -15,9 +16,10 @@ const Home = () => {
             <Services />
             <PricePlans />
             <Recommendations />
+            <Skill />
             <Education />
             <Contact />
-            <Footer/>
+            <Footer />
 
 
 
