@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaCircle, FaCode, FaCommentDots, FaFeatherAlt, FaHome, } from 'react-icons/fa'; 
-import profile from '../../../public/cv.png'
-import portfolio from '../../../public/portfolio.png'
+import profile from '/cv.png'
+import portfolio from '/portfolio.png'
 
 const RightNavigation = () => {
     return (
