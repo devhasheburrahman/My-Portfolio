@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaCircle, FaCode, FaCommentDots, FaFeatherAlt, FaHome, } from 'react-icons/fa'; 
 import profile from '/cv.png'
-import portfolio from '/portfolio.png'
+ 
 
 const RightNavigation = () => {
     return (
@@ -37,7 +37,7 @@ const RightNavigation = () => {
                 <div className='mt-10'>
 
                     <div title='Price Plans' className='bg-[#F0F0F6] h-10 w-10 rounded-full flex justify-center items-center'>
-                        <a href="#PricePlans"><img className='h-[18px] text-[#767676] w-[18px]' src={portfolio} alt="" />
+                        <a href="#PricePlans"><img className='h-[18px] text-[#767676] w-[18px]' src='/Portfolio.png' alt="" />
                         </a>
 
                     </div>
