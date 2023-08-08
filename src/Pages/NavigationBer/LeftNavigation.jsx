@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { FaDownload, FaFacebookF, FaInstagram, FaLinkedin, FaRegClone, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { FaDownload, FaFacebookF, FaGithub, FaInstagram, FaLinkedin, FaRegClone, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
 
 const LeftNavigation = () => {
     return (
@@ -13,11 +13,11 @@ const LeftNavigation = () => {
                         <h2 className="card-title text-lg text-[#2B2B2B] font-[Inter]">Hashebur Rahman</h2>
                         <p className='text-[15px]  font-[Inter] capitalize text-[#767676] leading-6 mb-4'> Font-end Developer</p>
                         <div className='flex gap-[15px]'>
-                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px]' href="https://www.facebook.com/hashebur.rahman.nishad"><FaFacebookF /> </a> </p>
-                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px]' href="https://web.whatsapp.com/"><FaWhatsapp /> </a> </p>
-                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px]' href=""><FaTwitter /> </a> </p>
-                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px]' href=""><FaLinkedin /> </a> </p>
-                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px]' href=""><FaYoutube /> </a> </p>
+                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-blue-500 w-[24px]' href="https://www.facebook.com/hashebur.rahman.nishad"><FaFacebookF /> </a> </p>
+                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-[#4cAf50] w-[24px]' href="https://web.whatsapp.com/"><FaWhatsapp /> </a> </p>
+                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-[#0174B3] w-[24px]' href=""><FaGithub /> </a> </p>
+                            <p className=' text-[#2B2B2B] hover:text-[#0174B3] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px]' href=""><FaLinkedin /> </a> </p>
+                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px] hover:text-[red]' href=""><FaYoutube /> </a> </p>
 
                         </div>
                     </div>

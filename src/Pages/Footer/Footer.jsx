@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <p className='text-center text-base text-[Inter]'>Copyright © 2023 - All right reserved by<span className='bg-[#FFB400] text-white rounded-sm p-1'>  : Developer Hashebur Rahman</span></p>
+            <p className='text-center mt-5 text-base text-[Inter]'>Copyright © 2023 - All right reserved by<span className='bg-[#FFB400] text-white rounded-sm p-1'>  : Developer Hashebur Rahman</span></p>
 
 
             
