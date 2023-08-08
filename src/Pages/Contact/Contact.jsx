@@ -65,10 +65,10 @@ const Contact = () => {
 
                     <h2 className='  mt-10 mb-10 font-[Inter] text-2xl font-bold capitalize leading-[24px] '>Social Networks :</h2>
                     <p className='flex gap-5 mt-5'>
-                        <a className='text-3xl hover:text-blue-500' href=""><FaFacebook /> </a>
-                        <a className='text-3xl hover:text-[#4cAf50]' href=""> <FaWhatsapp /></a>
+                        <a className='text-3xl hover:text-blue-500' href="https://www.facebook.com/hashebur.rahman.nishad"><FaFacebook /> </a>
+                        <a className='text-3xl hover:text-[#4cAf50]' href="https://web.whatsapp.com/"> <FaWhatsapp /></a>
                         <a className='text-3xl hover:text-[#0174B3]' href=""><FaLinkedin /> </a>
-                        <a className='text-3xl hover:text-[#0174B3]' href=""><FaGithub /> </a>
+                        <a className='text-3xl hover:text-[#0174B3]' href="https://github.com/hashebur"><FaGithub /> </a>
                     </p>
                 </div>
             </div>

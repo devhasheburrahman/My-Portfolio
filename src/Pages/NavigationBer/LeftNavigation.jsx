@@ -15,7 +15,7 @@ const LeftNavigation = () => {
                         <div className='flex gap-[15px]'>
                             <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-blue-500 w-[24px]' href="https://www.facebook.com/hashebur.rahman.nishad"><FaFacebookF /> </a> </p>
                             <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-[#4cAf50] w-[24px]' href="https://web.whatsapp.com/"><FaWhatsapp /> </a> </p>
-                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-[#0174B3] w-[24px]' href=""><FaGithub /> </a> </p>
+                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-[#0174B3] w-[24px]' href="https://github.com/hashebur"><FaGithub /> </a> </p>
                             <p className=' text-[#2B2B2B] hover:text-[#0174B3] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px]' href=""><FaLinkedin /> </a> </p>
                             <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px] hover:text-[red]' href=""><FaYoutube /> </a> </p>
 
