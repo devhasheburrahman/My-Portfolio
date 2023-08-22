@@ -19,7 +19,7 @@ const Header = () => {
 
             <div className='w-[290px]'>
                 {/* <img className='w-full' src={'/banner1.png'} alt="" /> */}
-                <img title='Developer Hashebur Rahman' className='h-[400px] w-full ' src={'/222222.png'} alt="" />
+                <img title='Developer Hashebur Rahman' className='h-[400px] w-full ' src={'/banner.png'} alt="" />
             </div>
 
 

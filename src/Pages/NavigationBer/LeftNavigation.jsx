@@ -1,20 +1,20 @@
-import React from 'react'; 
+import React from 'react';
 import { FaDownload, FaFacebookF, FaGithub, FaInstagram, FaLinkedin, FaRegClone, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
 
 const LeftNavigation = () => {
     return (
-        <section className='px-10 w-[305px] sh bg-[#FFFFFF] '>
+        <section className='px-10  w-[305px] bg-[#FFFFFF] bg-no-repeat' style={{backgroundImage: `url("/developer.png")`}}>
             <div>
                 <div className="card pt-[40px]  ">
                     <figure >
-                        <img src='/1333333.png' alt="" title='Hashebur Rahman' className="rounded-full h-[300px]  w-[300px]" />
+                        <img src='/hashebur.png' alt="" title='Hashebur Rahman' className="rounded-full h-[300px]  w-[300px]" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-lg text-[#2B2B2B] font-[Inter]">Hashebur Rahman</h2>
                         <p className='text-[15px]  font-[Inter] capitalize text-[#767676] leading-6 mb-4'> Font-end Developer</p>
                         <div className='flex gap-[15px]'>
                             <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-blue-500 w-[24px]' href="https://www.facebook.com/hashebur.rahman.nishad"><FaFacebookF /> </a> </p>
-                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-[#4cAf50] w-[24px]' href="https://web.whatsapp.com/"><FaWhatsapp /> </a> </p>
+                            <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-[#4cAf50] w-[24px]' href="https://api.whatsapp.com/send?phone=8801777441366"><FaWhatsapp /> </a> </p>
                             <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] hover:text-[#0174B3] w-[24px]' href="https://github.com/hashebur"><FaGithub /> </a> </p>
                             <p className=' text-[#2B2B2B] hover:text-[#0174B3] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px]' href=""><FaLinkedin /> </a> </p>
                             <p className=' text-[#2B2B2B] p-[5px] bg-yellow-300 rounded-[50%]'><a className=' h-[24px] w-[24px] hover:text-[red]' href=""><FaYoutube /> </a> </p>
@@ -145,7 +145,7 @@ const LeftNavigation = () => {
                 <h1 className='text-xl text-[#2B2B2B]  capitalize leading-[123px] font-medium font-[Inter]'>Extra Skill</h1>
                 <div className='flex mt-[10px] gap-5   '>
                     <p className='h-[15px] text-[#FFB400]'><FaRegClone /></p>
-                    <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>Bootstrap, Materialize</p>
+                    <p className='text-[15px]  font-[Inter] capitalize text-[#2B2B2B] leading-6'>Bootstrap, Materialize tailwind </p>
 
                 </div>
                 <div className='flex mt-[10px] gap-5   '>
@@ -168,9 +168,15 @@ const LeftNavigation = () => {
 
 
             <div className='mt-10 pb-10'>
-                <button className='px-10 py-2 font-[Inter] text-sm flex  rounded-lg shadow-lg uppercase font-semibold text-[#2B2B2B] items-center leading-6 bg-[#FFB400]'>Download Cv<FaDownload className='ml-5' /> </button>
+                <button className='px-10 py-2 font-[Inter] text-sm flex  rounded-lg shadow-lg uppercase font-semibold text-[#2B2B2B] items-center leading-6 bg-[#FFB400]'><a href="/Hasaebur Rahman Resume.pdf"> Download Cv<FaDownload className='ml-5 ' /></a> </button>
+            </div>
+            <div className='mt-10 pb-10'>
+               <a href="/Hasaebur Rahman Resume.pdf" download={"Hasaebur Rahman Resume.pdf"}> 
+               <button className='px-10 py-2 font-[Inter] text-sm flex  rounded-lg shadow-lg uppercase font-semibold text-[#2B2B2B] items-center leading-6 bg-[#FFB400]'>Download Cv<FaDownload className='ml-5 ' /> </button>
+               </a>
             </div>
 
+            
         </section>
     );
 };
